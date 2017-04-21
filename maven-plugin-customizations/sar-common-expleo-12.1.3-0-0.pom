@@ -74,7 +74,7 @@ Example: mvn -Denv=dev
         </executions>
         <configuration>
           <files>
-            <file>${appHome}/deploymentEnv/${env}.properties</file>
+            <file>${appHome}/../../../build/deploymentEnv/${env}.properties</file>
           </files>
         </configuration>
       </plugin>

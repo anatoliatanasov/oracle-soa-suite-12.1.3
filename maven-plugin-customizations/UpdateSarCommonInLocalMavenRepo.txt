@@ -1,1 +1,4 @@
 mvn install:install-file -Dfile=sar-common-expleo-12.1.3-0-0.pom -DgroupId=com.oracle.soa -DartifactId=sar-common-expleo -Dpackaging=pom -Dversion=12.1.3-0-0
+
+
+mvn install:install-file -Dfile=sbar-common-expleo-12.1.3-0-0.pom -DgroupId=com.oracle.servicebus -DartifactId=sbar-project-common-expleo -Dpackaging=pom -Dversion=12.1.3-0-0
